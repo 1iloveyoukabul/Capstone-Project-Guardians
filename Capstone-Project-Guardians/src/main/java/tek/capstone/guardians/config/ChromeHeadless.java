@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ChromeHeadless implements Browser{
-	
+	//  Headless? browser is executing test but we cant see UI because it runs in the backround not infront
 	public WebDriver openBrowser(String url){
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
