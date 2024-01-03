@@ -19,4 +19,4 @@ Feature: Login Page
 
     Examples: 
       | name | email                   | password      | confpassword  |
-      | John | tekstudent182@gmail.com | Tekschool123$ | Tekschool123$ |
+      | John | guardiantekstudent2@gmail.com | Tekschool123$ | Tekschool123$ |
